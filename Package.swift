@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "RealmSwift",
-            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/untagged-57e82f61b28d4e54274a/RealmSwift.xcframework.zip",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.0/RealmSwift.xcframework.zip",
             checksum: "0f4ad887b94288a6b60dda580217090f8765beb13ad761b16700c5db6e601fc8")
     ]
 )
