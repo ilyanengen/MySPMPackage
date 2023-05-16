@@ -10,7 +10,7 @@ let package = Package(
             name: "MySPMPackage",
             targets: ["Kingfisher", "Starscream", "SwiftyJSON", "BSImagePicker", "Promises",
                       "PryntTrimmerView", "Reachability", "MarqueeLabel", "SDWebImage","Haptica",
-                     "CryptoSwift", "SnapKit", "Color", "NetworkDebugger"]),
+                     "CryptoSwift", "SnapKit", "Color", "NetworkDebugger", "YouTubeKit", "Cache", "Algorithms"]),
     ],
     targets: [
         .binaryTarget(
@@ -68,6 +68,18 @@ let package = Package(
         .binaryTarget(
             name: "NetworkDebugger",
             url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/NetworkDebugger.xcframework.zip",
-            checksum: "1636f4c4ab2e775695c1299d10bf046a4b057fd1d0fa084b78f67e081ac5a9a9")
+            checksum: "1636f4c4ab2e775695c1299d10bf046a4b057fd1d0fa084b78f67e081ac5a9a9"),
+        .binaryTarget(
+            name: "YouTubeKit",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/YouTubeKit.xcframework.zip",
+            checksum: "7a190184038b62eb8f20faf17c3e98c8cb2263672c56e9edd1d32fdf96ff5a1b"),
+        .binaryTarget(
+            name: "Cache",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/Cache.xcframework.zip",
+            checksum: "b39ee83d81e4df5631de157503b22a0869d934ea3dabbce5c5a6d7458e961d9a"),
+        .binaryTarget(
+            name: "Algorithms",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/Algorithms.xcframework.zip",
+            checksum: "3f9b1aa88560f43a7e85d5af1e036da39982d86607c7e637a49d2a7120d133c5")
     ]
 )
