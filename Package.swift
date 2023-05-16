@@ -10,7 +10,10 @@ let package = Package(
             name: "MySPMPackage",
             targets: ["Kingfisher", "Starscream", "SwiftyJSON", "BSImagePicker", "Promises",
                       "PryntTrimmerView", "Reachability", "MarqueeLabel", "SDWebImage","Haptica",
-                     "CryptoSwift", "SnapKit", "Color", "NetworkDebugger", "YouTubeKit", "Cache", "Algorithms"]),
+                     "CryptoSwift", "SnapKit", "Color", "NetworkDebugger", "YouTubeKit", "Cache",
+                      "Algorithms", "CameraManager", "SwiftySound", "CalendarKit", "FloatingPanel",
+                      "SkyFloatingLabelTextField", "BonMot", "FileKit"
+                     ]),
     ],
     targets: [
         .binaryTarget(
@@ -80,6 +83,34 @@ let package = Package(
         .binaryTarget(
             name: "Algorithms",
             url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/Algorithms.xcframework.zip",
-            checksum: "3f9b1aa88560f43a7e85d5af1e036da39982d86607c7e637a49d2a7120d133c5")
+            checksum: "3f9b1aa88560f43a7e85d5af1e036da39982d86607c7e637a49d2a7120d133c5"),
+        .binaryTarget(
+            name: "CameraManager",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/CameraManager.xcframework.zip",
+            checksum: "2e8864eb5a4bbc3eefa985445a254a4fab49004dab7a11ceae519741309c774c"),
+        .binaryTarget(
+            name: "SwiftySound",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/SwiftySound.xcframework.zip",
+            checksum: "d3dd505ea160fa1b91710a74fd2b0f97d27bb35fdc67460eb72ad4f85eac142e"),
+        .binaryTarget(
+            name: "CalendarKit",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/CalendarKit.xcframework.zip",
+            checksum: "a44028fb1f8c83edd33d2b7e52d6a57a19543d35039272a91725e53e83296619"),
+        .binaryTarget(
+            name: "FloatingPanel",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/FloatingPanel.xcframework.zip",
+            checksum: "ee38b398a95bfe98ca6e079b273baa0e2a4b681f2092d13185d6f99cd0b9fa11"),
+        .binaryTarget(
+            name: "SkyFloatingLabelTextField",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/SkyFloatingLabelTextField.xcframework.zip",
+            checksum: "4fa099defc4f45611033828c39d12d360f03f59ebea3788f3ace8f9cd8c21817"),
+        .binaryTarget(
+            name: "BonMot",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/BonMot.xcframework.zip",
+            checksum: "48a52bcb5593da75a0a57b0a1e3f3b43b88260652b84237eda971b5cd9837fd0"),
+        .binaryTarget(
+            name: "FileKit",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/FileKit.xcframework.zip",
+            checksum: "93bfde2287ea9ab99e390ab8bd0c238393497d0bc8e8ef7885e7453166b340cc")
     ]
 )
