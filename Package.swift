@@ -9,7 +9,8 @@ let package = Package(
         .library(
             name: "MySPMPackage",
             targets: ["Kingfisher", "Starscream", "SwiftyJSON", "BSImagePicker", "Promises",
-                      "PryntTrimmerView", "Reachability", "MarqueeLabel", "SDWebImage","Haptica"]),
+                      "PryntTrimmerView", "Reachability", "MarqueeLabel", "SDWebImage","Haptica",
+                     "CryptoSwift", "SnapKit", "Color", "NetworkDebugger"]),
     ],
     targets: [
         .binaryTarget(
@@ -51,6 +52,22 @@ let package = Package(
         .binaryTarget(
             name: "Haptica",
             url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/Haptica.xcframework.zip",
-            checksum: "77d4c0e878d2c85bf169a300483b06fe0272e3ca5dd0bfa0ae7e3b208064802c")
+            checksum: "77d4c0e878d2c85bf169a300483b06fe0272e3ca5dd0bfa0ae7e3b208064802c"),
+        .binaryTarget(
+            name: "CryptoSwift",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/CryptoSwift.xcframework.zip",
+            checksum: "d49158a9174064352f78430b8fc52a588b42bfcd013953fc09219bd8eb075b54"),
+        .binaryTarget(
+            name: "SnapKit",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/SnapKit.xcframework.zip",
+            checksum: "98eb494f910befbb21008a3be7c6be1db01619f06859af5193f6502d701930e8"),
+        .binaryTarget(
+            name: "Color",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/Color.xcframework.zip",
+            checksum: "8b158a925a30ecfe42b3725af1cff8fa0ca1508a13f57a10fe99504d12fdc055"),
+        .binaryTarget(
+            name: "NetworkDebugger",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/NetworkDebugger.xcframework.zip",
+            checksum: "1636f4c4ab2e775695c1299d10bf046a4b057fd1d0fa084b78f67e081ac5a9a9")
     ]
 )
