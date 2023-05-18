@@ -12,7 +12,7 @@ let package = Package(
                       "PryntTrimmerView", "Reachability", "MarqueeLabel", "SDWebImage","Haptica",
                      "CryptoSwift", "SnapKit", "Color", "NetworkDebugger", "YouTubeKit", "Cache",
                       "Algorithms", "CameraManager", "SwiftySound", "CalendarKit", "FloatingPanel",
-                      "SkyFloatingLabelTextField", "BonMot", "FileKit"
+                      "SkyFloatingLabelTextField", "BonMot", "FileKit","SwiftyBeaver"
                      ]),
     ],
     targets: [
