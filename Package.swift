@@ -111,6 +111,10 @@ let package = Package(
         .binaryTarget(
             name: "FileKit",
             url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/FileKit.xcframework.zip",
-            checksum: "93bfde2287ea9ab99e390ab8bd0c238393497d0bc8e8ef7885e7453166b340cc")
+            checksum: "93bfde2287ea9ab99e390ab8bd0c238393497d0bc8e8ef7885e7453166b340cc"),
+        .binaryTarget(
+            name: "SwiftyBeaver",
+            url: "https://github.com/ilyanengen/MyBinaryXCFrameworks/releases/download/1.0.1/SwiftyBeaver.xcframework.zip",
+            checksum: "23ddee691051e02ceab122d502e6198d3c73998bd16946f2139e5ec5188e8acf")
     ]
 )
